@@ -1,0 +1,57 @@
+.Hero_Section {
+  color: white;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 90px;
+}
+
+/* Left hand side - Hero Section */
+.lhs_hero_section {
+  margin-top: 90px;
+}
+
+.lhs_hero_section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.lhs_hero_section h1 span {
+  color: #f6f84f;
+}
+
+.lhs_hero_section p {
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+/* Right hand side - Hero Section */
+.rhs_hero_section {
+  margin-top: 20px;
+}
+.rhs_hero_section img {
+    width: 450px;
+}
+
+@media screen and (max-width: 1250px) {
+  .Hero_Section {
+    height: fit-content;
+  }
+  .rhs_hero_section {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .rhs_hero_section {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Hero_Section {
+    padding: 0 20px;
+  }
+}

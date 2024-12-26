@@ -1,0 +1,65 @@
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 90px 0;
+}
+
+.Logo_Region {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  font-size: 0.6em;
+  color: white;
+}
+
+.Logo_Region h1 span {
+  color: #f6f84f;
+}
+
+.Navigation_Links ul {
+  display: flex;
+  gap: 100px;
+}
+
+.Navigation_Links ul li a {
+  color: white;
+}
+
+.Navigation_Links ul li a:hover {
+  padding-bottom: 5px;
+  border-bottom: 4px solid white;
+}
+
+.navly {
+  background-color: red;
+  height: 100px;
+}
+
+@media screen and (max-width: 1090px) {
+  .Navigation_Links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Navigation {
+    padding: 10px 20px 0;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .Navigation {
+    margin: 5px 0;
+    /* outline: 1px solid white; */
+  }
+
+  .Logo_Region h1 {
+    font-size: medium;
+  }
+
+  .Navigation {
+    padding: 10px 10px 0;
+  }
+}

@@ -1,0 +1,26 @@
+/* CSS Components */
+@import url("components/Button.css");
+@import url("components/Navigation.css");
+@import url("components/HeroSection.css");
+
+
+/* Base Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}

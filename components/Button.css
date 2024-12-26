@@ -1,0 +1,26 @@
+.Button {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border-radius: 50px;
+  letter-spacing: 0.09em;
+  text-transform: capitalize;
+  background-color: white;
+  color: black;
+  width: fit-content;
+}
+
+@media screen and (max-width: 568px) {
+  .button_small {
+    padding: 10px 10px;
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .button_small span {
+    display: none;
+  }
+}
