@@ -1,0 +1,95 @@
+.Banner_Section {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.Banner {
+  height: 300px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+/* Left hand side of the banner section */
+.lhs_banner_section {
+  background-image: url("../assets/circles.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-color: #88c9fd;
+  height: inherit;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.circle_with_text {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.circle_with_text span {
+  text-align: center;
+}
+
+/* Right hand side of the banner section */
+.rhs_banner_section {
+  height: inherit;
+  overflow: hidden;
+  width: 60%;
+  background-color: white;
+  padding: 0 10px 10px 50px;
+}
+
+.rhs_banner_section h1 {
+  margin-top: 10px;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.rhs_banner_section p {
+  margin-top: 12px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1250px) {
+  .Banner {
+    width: 100%;
+  }
+
+  .rhs_banner_section h1 {
+    font-size: 1.5rem;
+  }
+
+  .rhs_banner_section p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Banner {
+    position: relative;
+  }
+
+  .lhs_banner_section {
+    width: 100%;
+    filter: blur(10px);
+    position: absolute;
+  }
+
+  .rhs_banner_section {
+    padding: 0 20px;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+  }
+}

@@ -2,6 +2,7 @@
 @import url("components/Button.css");
 @import url("components/Navigation.css");
 @import url("components/HeroSection.css");
+@import url("components/BannerSection.css");
 
 /* Base Css */
 * {
@@ -12,7 +13,7 @@
 }
 
 body {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
 }
 
 a {
