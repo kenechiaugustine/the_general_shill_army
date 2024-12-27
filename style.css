@@ -3,6 +3,8 @@
 @import url("components/Navigation.css");
 @import url("components/HeroSection.css");
 @import url("components/BannerSection.css");
+@import url("components/ServiceSection.css");
+@import url("components/StatsSection.css");
 
 /* Base Css */
 * {
