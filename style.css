@@ -5,6 +5,7 @@
 @import url("components/BannerSection.css");
 @import url("components/ServiceSection.css");
 @import url("components/StatsSection.css");
+@import url("components/CallToActionSection.css");
 
 /* Base Css */
 * {
