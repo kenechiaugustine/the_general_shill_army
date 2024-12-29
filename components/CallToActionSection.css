@@ -57,13 +57,6 @@
   .wavy_line_1 {
     display: none;
   }
-
-  .cta_box {
-    background-image: url("../assets/top-left-lines.svg");
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: 200px;
-  }
 }
 
 @media screen and (max-width: 622px) {
