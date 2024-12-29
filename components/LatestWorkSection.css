@@ -2,7 +2,6 @@
   padding: 0 90px;
   color: white;
   margin: 40px 0 100px;
-  /* outline: 1px solid white; */
 }
 
 .Latest_work_section h1 {
@@ -21,13 +20,10 @@
   /* height: 380px; */
   width: 374px;
   border-radius: 10px;
-  /* outline: 1px solid white; */
 }
 
 .latest_work_box img {
   border-radius: 10px;
-  /* object-fit: cover; */
-  /* object-position: center; */
 }
 
 .latest_work_box h2 {

@@ -1,0 +1,64 @@
+.Footer_Section {
+  height: 50vh;
+  display: flex;
+  color: white;
+  padding: 0 90px;
+  align-items: center;
+}
+
+/* Left hand side footer section */
+.lhs_footer_section {
+  flex: 1;
+}
+.lhs_footer_section h1 {
+  font-size: 3rem;
+}
+
+.lhs_footer_section h1 span {
+  color: yellow;
+}
+
+.lhs_footer_section p {
+  margin: 20px 0;
+}
+
+/* Contact wrapper */
+.contact_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Twitter contact */
+.twitter_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.rhs_footer_section {
+  flex: 1;
+  background-image: url("../assets/footer-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: end;
+}
+
+@media screen and (max-width: 1085px) {
+  .twitter_wrapper span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 923px) {
+  .rhs_footer_section {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .Footer_Section {
+    padding: 0 20px;
+  }
+}
